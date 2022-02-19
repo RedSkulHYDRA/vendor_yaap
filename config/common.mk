@@ -190,3 +190,7 @@ $(call inherit-product, vendor/themes/common.mk)
 
 # Sepolicy
 $(call inherit-product, vendor/yaap/config/sepolicy.mk)
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/yaap/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
