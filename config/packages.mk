@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
     TrichromeWebView \
     TrichromeChrome \
     YAAPThemePicker \
+    Seedvault \
     OpenDelta
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
@@ -60,7 +61,6 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     LatinIME \
     messaging \
-    Seedvault \
     SetupWizard
 endif
 
