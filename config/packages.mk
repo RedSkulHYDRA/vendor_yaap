@@ -35,10 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture \
     GameSpace \
-    MatLog \
-    TrichromeLibrary \
-    TrichromeWebView \
-    TrichromeChrome \
     YAAPThemePicker \
     Seedvault \
     OpenDelta
