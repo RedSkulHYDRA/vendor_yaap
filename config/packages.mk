@@ -34,10 +34,6 @@ PRODUCT_PACKAGES += \
 # YAAP packages
 PRODUCT_PACKAGES += \
     Aperture \
-    MatLog \
-    TrichromeLibrary \
-    TrichromeWebView \
-    TrichromeChrome \
     YAAPThemePicker \
     Seedvault \
     OpenDelta
