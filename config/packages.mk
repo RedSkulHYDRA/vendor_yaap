@@ -39,6 +39,17 @@ PRODUCT_PACKAGES += \
     Seedvault \
     OpenDelta
 
+# Paranoid Sense
+PRODUCT_PACKAGES += \
+    ParanoidSense \
+    AOSPASettingsOverlay
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.face.sense_service=$(TARGET_SUPPORTS_64_BIT_APPS)
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     libtextclassifier_annotator_en_model \
